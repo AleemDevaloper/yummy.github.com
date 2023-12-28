@@ -1,0 +1,31 @@
+$main-color: rgb(211, 0, 0);
+$sub-color: #ffffff;
+$sub2-color: #A9A9A9;
+$sub3-color: black;
+$sub4-color: rgb(49, 49, 49);
+$sub5-color: #d8d8d8;
+$font: 'Roboto' , 'NunitoSans';
+@font-face {
+    font-family: 'Roboto';
+    font-size: 40px;
+    src: url('Assets/fonts/Roboto/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'NunitoSans';
+    font-size: 40px;
+    src: url('Assets/fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf');
+}
+
+.main-color{
+    color: $main-color;
+}
+.sub-color{
+    color: $sub-color;
+}
+.sub2-color{
+    color: $sub2-color;
+
+}
+.sub4-color{
+    color: $sub4-color;
+}

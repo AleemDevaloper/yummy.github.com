@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "Roboto";
+  font-size: 40px;
+  src: url("Assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "NunitoSans";
+  font-size: 40px;
+  src: url("Assets/fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
+}
+.main-color {
+  color: rgb(211, 0, 0);
+}
+
+.sub-color {
+  color: #ffffff;
+}
+
+.sub2-color {
+  color: #A9A9A9;
+}
+
+.sub4-color {
+  color: rgb(49, 49, 49);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+input,
+button {
+  border: 0px;
+}
+input:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  display: inline-block;
+  background-color: transparent;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  font-family: "Arial" "Roboto", "NunitoSans";
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #A9A9A9;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(211, 0, 0);
+  border-radius: 10px;
+}
+
+footer {
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #A9A9A9;
+  text-align: center;
+  font-size: 15px;
+}
+@media (max-width: 991px) {
+  footer footer {
+    font-size: 30px;
+  }
+}
+footer .footer {
+  padding: 18px;
+  width: 80%;
+  border: 1px solid #A9A9A9;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .icons .co {
+  margin: 10px;
+}
+footer .icons .co i {
+  border-radius: 100%;
+  padding: 10px;
+  border: 1px solid #A9A9A9;
+  color: #A9A9A9;
+  font-size: 30px;
+}
+@media (max-width: 991px) {
+  footer .wi-c {
+    flex-direction: column;
+  }
+  footer .wi-c .col {
+    padding: 10px 30px;
+  }
+}
+
+.navbar {
+  --bs-navbar-padding-y: 1rem !important;
+}
+
+.navbar-brand {
+  color: rgb(211, 0, 0) !important;
+}
+
+.bg-main .c-color {
+  color: #ffffff;
+  background: rgb(211, 0, 0);
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.mn {
+  margin-top: 0.2rem !important;
+}
+
+.home {
+  padding: 30px 0px;
+  background-color: #A9A9A9;
+}
+.home .row .col {
+  font-size: 25px;
+}
+.home .row .col .text button {
+  background-color: rgb(211, 0, 0);
+  color: #ffffff;
+}
+
+@media (max-width: 770px) {
+  .h {
+    flex-direction: column !important;
+    padding: 40px;
+  }
+  .h .col {
+    padding: 20px 0px !important;
+  }
+}
+.about {
+  margin: 50px 0px;
+}
+.about .about-headings {
+  color: #A9A9A9;
+}
+@media (max-width: 991px) {
+  .about .fl-c {
+    flex-direction: column;
+  }
+  .about .fl-c .col {
+    padding: 30px;
+  }
+  .about .fl-c .col {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 785px) {
+  .menu .row {
+    flex-direction: column;
+  }
+  .menu .row img {
+    max-width: 60%;
+  }
+}
+.over-chefs {
+  background-color: #A9A9A9;
+}
+
+.card {
+  width: 20rem;
+}
+
+.c-f .col {
+  margin: 40px 0px;
+}
+
+.bg-main1 {
+  background-color: rgb(49, 49, 49);
+  border-radius: 30px;
+}
+
+.btn-main {
+  background-color: rgb(211, 0, 0) !important;
+  padding: 10px 40px !important;
+  color: #ffffff !important;
+  max-width: 200px;
+}
+
+form {
+  box-shadow: 0px 0px 12px 0px #A9A9A9;
+}
+
+.iform {
+  border: 1px solid rgb(49, 49, 49);
+  background-color: #d8d8d8;
+  color: #ffffff;
+  margin: 10px;
+  padding: 20px 50px;
+  border-radius: 30px;
+}
+
+.pr-5 {
+  width: 100%;
+}
+
+.map iframe {
+  height: 350px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .d-f-c {
+    flex-direction: column;
+  }
+  .flex-form {
+    flex-direction: column;
+  }
+  .flex-form .pr-5 {
+    width: 95%;
+  }
+}/*# sourceMappingURL=main.css.map */
